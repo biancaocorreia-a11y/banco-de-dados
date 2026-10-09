@@ -54,3 +54,19 @@ INSERT INTO reservas (id_piloto, id_bateria, id_kart) VALUES
 (1,2,1),
 (2,3,2),
 (3,1,3);
+
+SELECT
+pilotos.nome,
+reservas.data_corrida,
+reservas.status
+FROM reservas
+INNER JOIN pilotos ON reservas.id_piloto = pilotos.id_piloto;
+
+SELECT
+baterias.nome,
+baterias.valor,
+reservas.data_corrida
+FROM reservas
+INNER JOIN baterias ON reservas.id_bateria = baterias.id_bateria
+ORDER BY baterias.valor DESC;
+
