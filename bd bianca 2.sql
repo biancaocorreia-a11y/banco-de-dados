@@ -47,7 +47,7 @@ INSERT INTO karts (numero, categoria, potencia_hp) VALUES
 
 INSERT INTO pilotos (nome, cpf, telefone, data_nascimento) values
 ('Lucas Mendes', '111.222.333.44', '41 99999-9999', '1998.05.14'),
-('Amanda de Castro', '555.666.777.88', '41 99999-4444', '2001.11.120'),
+('Amanda de Castro', '555.666.777.88', '41 99999-4444', '2001.11.12'),
 ('Raissa Nogueira', '999.888.777.55', '41 98765-4321', '1995.08.22');
 
 INSERT INTO reservas (id_piloto, id_bateria, id_kart) VALUES
